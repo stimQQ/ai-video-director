@@ -1,0 +1,18 @@
+{
+  "name": "ai-video-director",
+  "owner": {
+    "name": "apimodels.app",
+    "url": "https://apimodels.app"
+  },
+  "metadata": {
+    "description": "AI short-film director for Claude Code: keyframe-driven Seedance shots with a local review console."
+  },
+  "plugins": [
+    {
+      "name": "ai-video-director",
+      "source": "./",
+      "description": "Direct a short AI film from an idea, approving story, style, storyboard and every shot's keyframes in a local console before anything is paid for.",
+      "version": "0.1.0"
+    }
+  ]
+}

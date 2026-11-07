@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+.env
+.env.*
+# director projects (renders, keyframes, approvals) live wherever you create them; keep them out of this repo
+director-projects/

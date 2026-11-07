@@ -1,0 +1,35 @@
+{
+  "name": "ai-video-director",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Turn an idea into a short AI film from Claude Code or Codex: story, style, storyboard, first/last keyframes and Seedance shots, with every step approved by you in a local console before anything is paid for. One apimodels.app key.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.34.5",
+  "bin": {
+    "ai-video-director": "bin/cli.mjs"
+  },
+  "scripts": {
+    "mcp": "node mcp/server.mjs",
+    "console": "node bin/cli.mjs console",
+    "test": "node --test test/*.test.mjs",
+    "mutate": "node test/mutate.mjs"
+  },
+  "files": [
+    ".claude-plugin",
+    "agents",
+    "assets",
+    "bin",
+    "commands",
+    "console",
+    "engine",
+    "mcp",
+    "skills",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ]
+}

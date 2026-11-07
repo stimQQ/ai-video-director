@@ -1,0 +1,19 @@
+{
+  "name": "ai-video-director",
+  "version": "0.1.0",
+  "description": "Direct a short AI film from an idea: story, style, storyboard, first and last keyframes per shot, Seedance renders and the cut — every step approved by you in a local review console before anything is paid for. One apimodels.app key.",
+  "author": {
+    "name": "apimodels.app",
+    "url": "https://apimodels.app"
+  },
+  "homepage": "https://github.com/stimQQ/ai-video-director",
+  "repository": "https://github.com/stimQQ/ai-video-director",
+  "license": "MIT",
+  "keywords": ["ai-video", "seedance", "storyboard", "keyframes", "short-film", "mcp", "video-generation"],
+  "mcpServers": {
+    "video-director": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/mcp/server.mjs"]
+    }
+  }
+}
